@@ -29,7 +29,7 @@ export default function App() {
         <SearchBar />
         {isLoading && !error && <p>Loading...</p>}
         {contacts.length === 0 && !isLoading && !error && (
-          <NoContactsMessage>No contacts found.</NoContactsMessage>
+          <NoContactsMessage>No contacts yet</NoContactsMessage>
         )}
         <ContactList />
       </SearchContainer>
