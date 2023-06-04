@@ -1,0 +1,21 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.inputStyles {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  padding-left: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 320px;
+  height: 30px;
+  transition: border-color 0.3s ease;
+}
+.inputStyles:hover,
+.inputStyles:focus {
+  outline: none;
+  border-color: #fdf5e6;
+}
